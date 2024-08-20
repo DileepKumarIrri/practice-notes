@@ -1,0 +1,30 @@
+Project A (Description):-Machine Learning Intern at Stack Box
+Real Estate Data Analysis
+- Conducted in-depth analysis of over 21,000+ historical real estate transactions.
+- Analyzed property characteristics and market trends to generate accurate property valuations.
+- Implemented and optimized machine learning algorithms such as DecisionTreeRegressor, KNearestNeighbors, and Linear Regression.
+- Enhanced DecisionTreeRegressor accuracy to 90%.
+
+Key Skills -- Data Analysi-Real Estat-Market Trend-Property Valuation-Machine Learnin-DecisionTreeRegresso-KNearestNeighbor-Linear Regressio-Algorithm Optimizatio- Accuracy Enhancement
+
+Project B(Description):-Software and Hardware Control Using Gestures
+
+- Developed gesture recognition for cursor control using OpenCV, MediaPipe, and TensorFlow.
+- Integrated with Arduino IDE for controlling hardware devices.
+- Achieved efficient real-time processing with only 40% CPU usage on an 8GB RAM system.
+- Potential applications include accessibility tools, gaming, and IoT device control.
+- Implemented custom machine learning models to classify hand gestures accurately.
+- Optimized image processing pipeline for low-latency interaction in diverse environments.
+- Enabled multi-platform compatibility, making the system versatile for various devices.
+- Explored future enhancements like expanding gesture libraries and integrating with VR/AR systems.
+
+Project C(Desciption):- Handwritten Digit Recognizer project
+
+-Optimized a neural network model for real-time handwritten digit recognition with 97% accuracy.
+-Utilized TensorFlow and Keras for building and training the model.
+-Implemented data preprocessing techniques such as normalization and augmentation to enhance model performance.
+-Integrated the model into a user-friendly GUI for easy digit input and recognition.
+-Employed convolutional neural networks (CNNs) to efficiently capture spatial hierarchies in the image data.
+-Tested and validated the model on the MNIST dataset, ensuring high accuracy and robustness.
+-Achieved low inference time, enabling the model to recognize digits almost instantaneously.
+-Explored potential applications, such as automated form processing and educational tools for learning digits.
