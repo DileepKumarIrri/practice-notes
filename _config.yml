@@ -19,26 +19,27 @@ skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "Dileep Kumar Practice Notes"
 description: "Practice Notebook"
-baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: # path of site logo, e.g. "/images/logo.png"
+baseurl: # Set this if your site is hosted in a subdirectory, e.g., "/blog"
+url: # Set this to your site's base URL, e.g., "https://yourdomain.com"
+logo: # Path to your site's logo, e.g., "/images/logo.png"
 date_format: "%B %-d, %Y"
-read_time: # reading time estimates, e.g. true
-words_per_minute: # 200
+read_time: true # Enables reading time estimates if set to true
+words_per_minute: 200 # Default words per minute for reading time estimates
 mathjax:
-  enable: # MathJax equations, e.g. true, false (default)
-  combo:  # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
-  tags:  # "none", "ams" (default), "all"
+  enable: true # Enable MathJax to render LaTeX equations
+  combo: "tex-mml-chtml" # MathJax configuration (use "tex-svg" for SVG output)
+  tags: "ams" # MathJax tags to include (use "all" to include all)
 google_fonts:
   - name: "Source Sans Pro"
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
-google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
+google_analytics: # Your Google Analytics ID, e.g., "UA-NNNNNNNN-N"
 disqus:
-  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
+  shortname: # Your Disqus shortname for comments, e.g., "my_disqus_shortname"
 twitter:
-  username: # site's Twitter username, e.g. "mmistakes"
+  username: # Your site's Twitter username, e.g., "mmistakes"
+
 
 # Liquid
 liquid:
