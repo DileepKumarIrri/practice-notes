@@ -50,3 +50,28 @@
    - **User Interface**: Provides protocols and services that allow applications to interact with the network and the user (e.g., HTTP, FTP, SMTP).
 
 These functions collectively enable seamless and standardized communication across different network devices and protocols, ensuring interoperability and reliable data transmission.
+
+
+The **first networking model** to be widely recognized and used was the **TCP/IP model**. It was developed in the late 1960s and early 1970s by the United States Department of Defense (DoD) for the ARPANET, the predecessor of the modern internet. The TCP/IP model was designed to provide a set of protocols that could reliably connect different types of computer networks.
+
+### Key Points about the TCP/IP Model:
+
+- **Origins:** The TCP/IP protocols were first used to connect ARPANET, a pioneering packet-switching network funded by the DoD. This project eventually led to the creation of the modern internet.
+- **Development Timeline:** The foundational protocols, TCP (Transmission Control Protocol) and IP (Internet Protocol), were developed in the early 1970s. The full TCP/IP protocol suite was adopted as the standard for all ARPANET communications in 1983.
+- **Structure:** Initially conceptualized with four layers, the TCP/IP model (sometimes represented with five) includes:
+  1. **Link Layer (or Network Interface Layer):** Handles communication on the physical network, equivalent to a combination of the OSI's Physical and Data Link layers.
+  2. **Internet Layer:** Corresponds to the OSI's Network layer, responsible for logical addressing and routing (IP).
+  3. **Transport Layer:** Manages end-to-end communication, reliability, and data flow control (TCP/UDP).
+  4. **Application Layer:** Encompasses the functions of the OSI's Session, Presentation, and Application layers, focusing on high-level protocols (e.g., HTTP, FTP, SMTP).
+
+### Subsequent Model: OSI Model
+
+- The **OSI model** was developed later, in the late 1970s and early 1980s, by the International Organization for Standardization (ISO). Its purpose was to create a standardized framework for networking protocols to ensure different systems could communicate regardless of their underlying architecture.
+- The OSI model, with its seven layers, provides a more detailed and theoretical approach compared to the practical, four-layer structure of the TCP/IP model. Despite being less commonly implemented in full, the OSI model is valuable for teaching, understanding, and designing network protocols.
+
+### Summary
+
+- **TCP/IP Model**: The first practical and widely adopted networking model, foundational for the development of the internet.
+- **OSI Model**: Developed later as a more comprehensive and theoretical framework, used for standardization, understanding, and education in networking.
+
+In practical terms, while the OSI model provides a thorough way to understand the roles of different protocols and network functions, the TCP/IP model is the one that laid the groundwork for the internet as we know it today.
